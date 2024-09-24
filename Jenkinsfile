@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from GitHub
-                git branch: 'main', url: 'https://github.com/umar0800/your-repo.git'
+                git branch: 'main', url: 'https://github.com/UMAR0800/simple-jenkins-pipeline.git'
             }
         }
 
